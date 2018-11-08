@@ -1,2 +1,18 @@
-# vortex-superfluid
-We calculate the ground state of infinite two-component rotating superfluids. spin_spin.py and Rabi.py find the ground state of different models, respectively. For the first one, interactions lead to transitions between the two components, whereas in the second one the number of atoms in each component is conserved. Besides, in Rabi.py the two components are Rabi coupled. For details related to the model used in spin_spin.py, see section 12.2 in "Bose–Einstein Condensation in Dilute Gases". Rabi.py was used to generate the results in https://journals.aps.org/pra/abstract/10.1103/PhysRevA.97.043609 (or https://arxiv.org/abs/1801.09912).
+## vortex-superfluid
+
+We calculate the ground state of infinite two-component rotating superfluids, for two different
+models.
+
+## Software
+
+* Python 3.6
+
+## Repository contents
+
+* Rabi.py
+
+It finds the ground state the model shown in https://journals.aps.org/pra/abstract/10.1103/PhysRevA.97.043609 (or https://arxiv.org/abs/1801.09912).
+
+* spin_spin.py
+
+It finds the ground state of the model shown in section 12.2 in "Bose–Einstein Condensation in Dilute Gases".
